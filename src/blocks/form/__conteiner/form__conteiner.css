@@ -1,0 +1,7 @@
+.form__conteiner {
+    display: grid;
+    grid-template-columns: 12fr 4fr;
+    grid-template-rows: 1fr;
+    border: 1px solid var(--text_color);
+    border-radius: 30px;
+}

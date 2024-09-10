@@ -1,0 +1,12 @@
+.info {
+    background-image: url('/img/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+@media screen and (max-width: 1024px) {
+    .info {
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,11 @@
+.title {
+    font-size: var(--title);
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 20px;
+}
+@media screen and (max-width: 420px) {
+    .title {
+        letter-spacing: 10px;
+    }
+}

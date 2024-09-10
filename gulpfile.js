@@ -32,12 +32,12 @@ const paths = {
     },
     images: {
         src: [
-                'src/blocks/**/*.jpg',
-                'src/blocks/**/*.png',
-                'src/blocks/**/*.jpeg',
-                'src/blocks/**/*.webp',
-                'src/blocks/**/*.svg',
-                'src/blocks/**/*.gif'
+                'src/img/*.jpg',
+                'src/img/*.png',
+                'src/img/*.jpeg',
+                'src/img/*.webp',
+                'src/img/*.svg',
+                'src/img/*.gif'
             ],
         dest: 'docs/img/'
     }

@@ -1,0 +1,9 @@
+.info__text {
+    padding-top: 40px;
+    line-height: 170%;
+}
+@media screen and (max-width: 420px) {
+    .info__text {
+        line-height: 140%;
+    }
+}

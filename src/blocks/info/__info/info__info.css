@@ -1,0 +1,16 @@
+.info__info {
+    padding-top: 200px;
+}
+@media screen and (max-width: 1024px) {
+    .info__info {
+        padding-top: 120px;
+        padding-right: 30px;
+        padding-left: 30px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px) {
+    .info__info {
+        padding-top: 70px;
+    }
+}

@@ -1,0 +1,9 @@
+.button {
+    background: var(--gradient);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: linear-gradient(135deg, #ed8c8c, #ed8c8c);
+}

@@ -1,0 +1,8 @@
+.desktopPhoto {
+    background-image: url('/img/hero-desktop.jpg');
+}
+@media screen and (max-width: 1024px) {
+    .desktopPhoto {
+        display: none;
+    }
+}

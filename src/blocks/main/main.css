@@ -40,6 +40,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input {
+    border: none;
+    background: transparent;
+}
+input:focus {
+    outline: none;
+}
+button {
+    border: none;
+    background: transparent;
+}
 * {
     box-sizing: border-box;
+}
+:root {
+    --text_color: #CE9797;
+    --red: #FF0000;
+    --black: #413A3A;
+    --gradient: linear-gradient(135deg, #f7bfbf, #ed8c8c);
+    --title: clamp(40px, 4.7vw, 75px);
+}
+.main {
+    font-family: "Josefin Sans", system-ui;
+    font-weight: 400;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: 100%;
+    color: var(--text_color);
+}
+@media screen and (max-width: 1024px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
 }
