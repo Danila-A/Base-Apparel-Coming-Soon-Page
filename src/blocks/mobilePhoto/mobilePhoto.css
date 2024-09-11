@@ -1,5 +1,5 @@
 .mobilePhoto {
-    background-image: url('img/hero-mobile.jpg');
+    background-image: url('../img/hero-mobile.jpg');
     display: none;
 }
 @media screen and (max-width: 1024px) {
